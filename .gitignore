@@ -1,0 +1,21 @@
+# Build output
+build/
+build-*/
+dist/
+
+# Vendored dependencies (fetched by tools/fetch_deps.py)
+external/
+
+# Editor / OS cruft
+.vs/
+.idea/
+*.user
+*.suo
+Thumbs.db
+.DS_Store
+
+# Release archives
+*.zip
+
+# Stray binaries
+*.exe
